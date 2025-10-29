@@ -1,9 +1,9 @@
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 a:hover {
-    color: rgb(56,56,56);
+    color: rgb(164,164,164);
 }
 .aboutDiv {
     border: 5px outset blue;
