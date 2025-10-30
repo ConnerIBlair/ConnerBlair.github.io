@@ -2,12 +2,13 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 500px;
     text-align: center;
     position: relative;
 }
 .projects p {
     width: 50%;
+    color: white;
     display: inline-block;
     font-weight: bold;
     padding-top: 32px;
@@ -16,7 +17,9 @@
 }
 .image1 {
     background: url("https://i.redd.it/frxi6pqw5vfe1.jpeg");
+    background-repeat: no-repeat;
 }
 .image2 {
     background: url("https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2404060/header.jpg?t=1707542106");
+    background-repeat: no-repeat;
 }
