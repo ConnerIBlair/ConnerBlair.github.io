@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'balgrufregular';
+    src: url('../fonts/balgruf-jrye7-webfont.woff2') format('woff2'),
+         url('../fonts/balgruf-jrye7-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Helvetica, serif;
+    background-color: rgb(44,43,50);
+    margin: 0;
+}
+
+.titlefont{
+    font-family: "balgrufregular", 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+header {
+    background: rgb(22, 34, 42);
+    padding: 0 20px;
+    align-items: center;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: rgb(164,164,164);
+}
+
+.navbar{
+    gap: 30px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer {
+    background-color: black;
+    height: 200px;
+}
+
+.flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.border {
+    border: 1px solid lightblue;
+}
+.italic {
+    font-style: italic;
+}
+
+.socialmedia {
+    gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+.socialmedia li img {
+    height: 50px;
+    margin-top: 30px;
+}
+.socialmedia h2 {
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1160px) {
+    .footertext {
+        font-size: 125%;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .socialmedia li img {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 880px) {
+    .socialmedia li img {
+        height: 30px;
+    }
+}

@@ -1,0 +1,195 @@
+.about {
+    padding: 12px;
+    box-shadow: 0px 0px 7px rgb(0, 0, 0);
+    background-color: rgb(37, 40, 46);
+}
+.about h2 {
+    font-size: 210%;
+    font-weight: bold;
+    margin: 60px 0px 0px 30px;
+}
+.about div {
+    margin-bottom: 100px;
+    padding: 0 8px;
+}
+.aboutmetext {
+    margin-top: 12px;
+    width: 55%;
+}
+
+.divider {
+    display: block;
+    margin: 40px auto 80px;
+    width: 90%;
+    max-width: 1100px;
+}
+.mobiledivider {
+    margin: 40px auto 80px;
+    width: 90%;
+    max-width: 1100px;
+    display: none;
+}
+.smalldivider {
+    margin: 100px 0px;
+    align-self: center;
+}
+.smalldivider img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.coverphoto {
+    width: 30%;
+    min-width: 300px;
+    max-width: 450px;
+    border-radius: 5%;
+    margin-right: 32px;
+    height: 50%;
+}
+
+.framedpic {
+    width: 40%;
+    min-width: 300px;
+    max-width: 450px;
+    border-radius: 5%;
+    height: 50%;
+}
+
+.features {
+    padding-top: 80px;
+    box-shadow: 0px 0px 7px rgb(0, 0, 0);
+    padding-bottom: 90px;
+    background-image: url(../Images/Noise\ Background.png);
+    background-color: rgba(0, 68, 179, 0.1);
+    background-blend-mode: multiply;
+}
+.features h2 {
+    font-size: 350%;
+    margin-top: 0px;
+    text-align: center;
+}
+.features h3 {
+    font-size: 200%;
+}
+.features ul {
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+.project {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin: 0px 20px;
+}
+.project p {
+    max-width: 40ch;
+}
+
+.description {
+    color: rgb(178,178,178);
+    font-size: 100%;
+    word-spacing: 20%;
+    line-height: 30px;
+}
+
+@media screen and (min-width: 1160px) {
+    .features ul li p {
+        font-size: 120%
+    }
+    .about p {
+        max-width: 760px;
+        font-size: 140%;
+    }
+    .socialmedia {
+        margin-top: 50px;
+        max-width: 760px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .about h2 {
+        margin-left: 50px;
+    }
+    .about div {
+        padding: 0 25px;
+    }
+    .about div img {
+        margin-right: 10%;
+    }
+    .about p {
+        max-width: 55ch;
+    }
+    .features ul li p {
+        font-size: 150%;
+    }
+}
+@media screen and (max-width: 880px) {
+    .framedpic {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 780px) {
+    .about h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+    .about div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about p {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .about div img {
+        margin: 0;
+    }
+    .divider {
+        display: none;
+    }
+    .mobiledivider {
+        display: block;
+    }
+    .project p {
+        margin-right: 0;
+    }
+    .aboutmetext {
+    width: 90%;
+}
+}
+
+@media screen and (max-width: 660px) {
+    .about p {
+        font-size: 100%;
+    }
+    .project {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .project p {
+        width: 80%;
+        max-width: 35ch;
+        margin: 10px auto 0px auto;
+    }
+    .project img {
+        margin-top: 40px;
+    }
+    .features h2 {
+        font-size: 250%;
+    }
+    .framedpic {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .features h2 {
+        font-size: 200%;
+    }
+}
+@media screen and (min-height: 950px) {
+}
